@@ -4,25 +4,28 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>jom</title>
+		<link rel="shortcut icon" href="img/icon.ico"/>
+		<title>Jomah Truya - Front-end Developer</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		
 	</head>
 	
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
 		
 	<!-- Navigation -->
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<nav class="navbar navbar-expand-md navbar-dark bg-navbar sticky-top">
 		  <div class="container">
-			  <a class="navbar-brand" href="#">jom</a>
+				 
+			  <a class="navbar-brand" href="#"><img src="img/logowhite.png">jom</a>
+			  
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-				  <li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				  <li class="nav-item">
+					<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
@@ -42,7 +45,7 @@
 			<div class="container text-light text-center">
 			  <h1 class="display-3">Hello there!</h1>
 			  <p class="lead">I'm Jom, a Front-end Developer</p>	
-			  <a class="btn btn-primary btn-lg" href="#about" role="button">More About Me</a>
+			  <a class="btn btn-primary btn-lg" href="#about" role="button">About Me</a>
 			</div>
 		</div>
 		
@@ -61,6 +64,7 @@
 				<div class="p-5">
 				  <p class="lead">I'm Jom - starting my career path as a Front-end Developer, graduate of Information Technology at University of the East.</p>
 				  <p class="lead">I value simple content structure, clean design patterns, and producing high quality responsive websites.</p>
+				  <p class="lead">Apart from being a web developer, I also enjoy editing travel videos using Adobe Premiere.</p>
 				</div>
 			  </div>
 			</div>
@@ -72,42 +76,45 @@
 				<h2 class="text-center text-primary text-light">PROJECTS</h2>
 				<h3 class="text-center text-primary text-light">Work In Progress</h3>
 				<br/>
+				
 				<div class="container">
-					<div class="card-group">
+					<div class="card-deck">
 					  <div class="card">
-						<img class="card-img-top" src="img/travel.jpg" alt="Travel image cap">
-						<div class="card-body d-flex flex-column">
-						  <h5 class="card-title">Travel Blog</h5>
-						  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-						  <a href="#" class="btn btn-outline-primary  card-link disabled">View Here</a>
-						</div>
+						<div class="zoom">
+									<img class="card-img-top" src="img/travel.jpg" alt="Travel">
+								</div>
+								<div class="card-body">
+								  <h5 class="card-title">Travel Blog</h5>
+								  <p class="card-text">A site that shows different destinations.</p>
+								  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								  <a href="#" class="btn btn-outline-primary  card-link disabled">Online Soon</a>
+								</div>
 					  </div>
 					  <div class="card">
-						<img class="card-img-top" src="img/Products.jpg" alt="Product image cap">
-						<div class="card-body d-flex flex-column">
-						  <h5 class="card-title">Product Viewing</h5>
-						  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-						  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-						  <a href="#" class="btn btn-outline-primary card-link disabled ">View Here</a>
-						</div>
+						<div class="zoom">
+									<img class="card-img-top" src="img/Products.jpg" alt="Product image cap">
+								</div>
+								<div class="card-body">
+								  <h5 class="card-title">Product Viewing</h5>
+								  <p class="card-text">This site is for product viewing and inquiries only.</p>
+								  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								  <a href="#" class="btn btn-outline-primary card-link disabled ">Online Soon</a>
+								</div>
 					  </div>
-					  <br/>					 
 					  <div class="card">
-						<img class="card-img-top" src="img/Login.jpg" alt="Card image cap">
-						<div class="card-body d-flex flex-column">
-						  <h5 class="card-title">Login/Registration Form</h5>
-						  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-						  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-						  <a href="#" class="btn btn-outline-primary card-link disabled">View Here</a>
-						</div>
+						<div class="zoom">
+									<img class="card-img-top" src="img/Login.jpg" alt="Card image cap">
+								</div>
+								<div class="card-body">
+								  <h5 class="card-title">Login/Registration Form</h5>
+								  <p class="card-text">A Simple form that can handle admin and user account.</p>
+								  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								  <a href="#" class="btn btn-outline-primary card-link disabled">Online Soon</a>
+								</div>
 					  </div>
 					</div>
 				</div>
-				<br/>
-			</div>
 		</section>
-		
 	<!-- Connect -->
 		<div class="container">
 			<div class="row text-center">
@@ -115,9 +122,8 @@
 					<h2 class="text-center text-secondary">CONNECT</h2>
 					</div>
 					<div class="col-12 social">
-					<a href="#"><i class="fab fa-facebook"></i></a>
-					<a href="#"><i class="fab fa-google-plus-g"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com/jomah.s.truya"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com/jmhtry/"><i class="fab fa-instagram"></i></a>
 					<a href="#"><i class="fab fa-youtube"></i></a>
 				</div>
 			</div>
@@ -172,7 +178,7 @@
 		</section>
 		<br/>
 	<!-- Footer -->
-		<div class="copyright text-center text-white">
+		<div class="footer text-center text-white">
 		  <div class="container">
 			<small>Copyright &copy; 2018 www.jomahtruya.github.io</small>
 		  </div>
